@@ -1,0 +1,10 @@
+# helm
+service:
+  type: NodePort
+  nodePort: "30069"
+persistence:
+  enabled: false
+postgresql:
+  enabled: true
+  persistence:
+    enabled: false
